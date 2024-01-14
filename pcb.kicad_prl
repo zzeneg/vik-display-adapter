@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ff7ffff_ffffffff",
+    "visible_layers": "ff7fdff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -83,6 +83,18 @@
           "pos_y": -8,
           "size_x": 2576,
           "size_y": 1408
+        }
+      },
+      {
+        "name": "pcb.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": -1087,
+          "pos_y": -197,
+          "size_x": 1094,
+          "size_y": 967
         }
       }
     ]
