@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,93.9,-59.0,0.0,bottom
+C2,100n,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,107.5,-82.8,90.0,bottom
+H1,MountingHole,Hole_M2-TH,91.7,-54.7,0.0,top
+H2,MountingHole,Hole_M2-TH,107.3,-54.7,0.0,top
+J1,vik-module-connector,vik-module-connector-horizontal,99.5,-69.7,0.0,bottom
+J2,Conn_01x12_Pin,fpc-0.7mm-12pin,99.5,-84.0,180.0,bottom
+J3,vik-module-connector,vik-module-connector-vertical,99.5,-78.7,0.0,bottom
+Q1,S8050,SOT-23,99.9,-58.2,180.0,bottom
+R1,10R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,105.5,-59.0,180.0,bottom
+R2,1k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,100.5,-62.8,180.0,bottom
+R3,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,106.1,-64.2,270.0,bottom
+R4,100k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,93.9,-63.2,180.0,bottom
