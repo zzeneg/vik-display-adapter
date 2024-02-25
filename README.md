@@ -2,9 +2,16 @@
 
 Small adapter for bare LCD displays to [VIK](https://github.com/sadekbaroudi/vik) connector.
 
+## Features
+
+- horizontal or vertical VIK connector (FPC)
+- automatic reset (no separate pin)
+- two mounting holes for solder nuts
+- testing pads
+
 ## Supported displays
 
-Theoretically any display with 12pin 0.7mm spacing welding type FPC with this pin out:
+Theoretically any display with 12pin welding type FPC with this pin out:
 
 ```
 - GND
@@ -25,7 +32,31 @@ Bare displays can be used with any PCB size, but they are pretty fragile without
 
 Existing PCBs for specific sizes:
 
-- 1.47" rectangular display
+- 1.28" round display ([example](https://www.aliexpress.com/item/1005006051175539.html))
+- universal **0.7mm** pitch / 1.47" rectangular display ([example](https://www.aliexpress.com/item/1005004833011998.html))
+- universal **0.8mm** pitch ([example](https://www.aliexpress.com/item/1416043398.html))
+
+## Forced backlight
+
+If controlled backlight is not needed (for example no GPIO2 on VIK), GND testing pad can be bridged to R1 bottom pad, for 100% backlight. In that case S8050 and R1 parts are not needed.
+
+![](./images/jumper.png)
+
+## Photos
+
+![](./images/back.jpg)
+![](./images/front.jpg)
+
+## BOM
+
+All SMD components are 1206 size
+
+- 10R resistor
+- 100k resistor
+- 1uF capacitor
+- 100nF capacitor
+- S8050 transistor
+- 12pin FFC connector vertical/horizontal (both can be soldered in the same time)
 
 ## Used projects and resources
 
